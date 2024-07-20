@@ -79,3 +79,10 @@ Command to create visits
 ```bash
 php artisan app:create-visit
 ```
+
+## Api documentation
+```bash
+php artisan l5-swagger:generate
+```
+### Route swagger: 
+http://localhost:8000/api/documentation

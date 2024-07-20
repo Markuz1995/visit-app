@@ -15,3 +15,8 @@ Route::middleware('auth:sanctum')->group(function () {
     });
     Route::apiResource('visits', VisitController::class);
 });
+
+
+Route::get('/api/documentation', function () {
+    return view('swagger-ui');
+});
